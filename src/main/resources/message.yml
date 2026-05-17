@@ -1,0 +1,30 @@
+# ===================================================#
+#        RegionAction - V1.0.0 插件message檔
+#                 by Y2-Dev / #雞槌勒
+#  區域顯示Title / 進出執行指令 / 播放自訂音樂 / 很好操作
+# ===================================================#
+
+# ✅ 聊天頻道的插件Title (可自行更改)
+prefix: "&7[&6RegionAction&7] :&r "
+
+# ⚙️ 區域插件系統訊息Debug開關訊息 (聊天頻道訊息)
+debug-on: "&aDebug模式已開啟"
+debug-off: "&cDebug模式已關閉"
+
+# ⚙️ 系統沒有權限及重載設定檔的訊息 (聊天頻道訊息)
+no-permission: "&c你沒有權限執行此指令"
+player-only: "&c只有玩家可以使用此指令"
+reloaded: "&a已重新載入所有的設定檔。"
+
+# 💬 建立區域設定訊息
+region-created: "&a成功建立區域&e%id%"
+region-deleted: "&c已刪除區域&e%id%"
+region-not-found: "&c找不到此區域&e%id%"
+region-exists: "&c此區域ID已存在: &e%id%"
+need-select: "&c你尚未設定&eA點&c或&eB點"
+
+# 💬 劃線工具顯示的訊息
+wand-given: "&a已給予&f%player%&a區域劃線工具"
+pos1-set: "&a已設定&eA點&7→ &f%location%"
+pos2-set: "&a已設定&eB點&7→ &f%location%"
+edit-timeout: "&c你已超過5分鐘沒有操作，已自動退出區域編輯模式"

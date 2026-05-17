@@ -1,0 +1,24 @@
+name: RegionAction
+version: ${project.version}
+main: com.y2devteam.regionaction.RegionAction
+api-version: 1.21
+authors: [ "Y2 Dev & Team – XiaoYu5530" ]
+
+depend:
+  - PlaceholderAPI
+
+commands:
+  rac:
+    description: RegionAction & Advanced Area Trigger System
+    usage: /rac <reload|create|delete|give|debug>
+    aliases: [regionaction]
+    permission: regionaction.admin
+
+permissions:
+  regionaction.admin:
+    description: 管理 RegionAction 的權限
+    default: op
+
+  regionaction.use:
+    description: 使用區域觸發（預設所有玩家）
+    default: true
