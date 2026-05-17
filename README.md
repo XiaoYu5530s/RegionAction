@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/XiaoYu5530s/RegionAction/main/assets/banner.png" width="700">
+</p>
+
 # RegionAction
 
 A lightweight and high-performance **region trigger system** for Minecraft.
